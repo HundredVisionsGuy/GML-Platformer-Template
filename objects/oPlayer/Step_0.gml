@@ -45,5 +45,6 @@ if ( place_meeting(x, y + vsp, oWall) )
 	}
 	vsp = 0;
 }
+
 // Update y
 y = y + vsp;
