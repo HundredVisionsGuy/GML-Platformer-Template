@@ -1,10 +1,10 @@
-// What do we do in ___ state?
-// Switch sprites to ___
+// What do we do in jumping state?
+// Switch sprites to jumping
 // first make sure we begin with the first frame
-if (sprite_index != ___) {
+if (sprite_index != sPlayerJump) {
 	image_index = 0;
 }
-sprite_index = ___;
+sprite_index = sPlayerJump;
 
 // run the animation cycle once, then hold on the last frame
 if (image_index > image_number -1) {
@@ -12,3 +12,8 @@ if (image_index > image_number -1) {
 }
 
 // What states can we change into?
+// Falling - vsp > 0
+if (vsp > 0) state = player_states.falling;
+
+// Idle
+if (vsp == 0) state = player_states.idle;

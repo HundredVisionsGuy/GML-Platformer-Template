@@ -17,6 +17,7 @@ if (hsp < 0) {
 // What states can we change into?
 // Idle
 if (hsp == 0) state = player_states.idle;
+
 // Jumping
 
 // Falling
