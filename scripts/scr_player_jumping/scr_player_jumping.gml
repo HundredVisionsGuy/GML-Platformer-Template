@@ -5,6 +5,13 @@ if (sprite_index != sPlayerJump) {
 	image_index = 0;
 }
 sprite_index = sPlayerJump;
+// Flip the sprite based on direction
+if (hsp > 0) {
+	image_xscale = 1;	
+}
+if (hsp < 0) {
+	image_xscale = -1;
+}
 
 // run the animation cycle once, then hold on the last frame
 if (image_index > image_number -1) {

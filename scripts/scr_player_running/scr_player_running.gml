@@ -19,5 +19,7 @@ if (hsp < 0) {
 if (hsp == 0) state = player_states.idle;
 
 // Jumping
+if (abs(hsp) > 0 && vsp <= 0) state = player_states.jumping;
 
 // Falling
+if (vsp > 0) state = player_states.falling;
