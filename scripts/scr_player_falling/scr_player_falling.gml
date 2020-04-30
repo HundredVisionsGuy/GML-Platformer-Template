@@ -18,3 +18,7 @@ if ( place_meeting(x, y + 1, oWall) && hsp = 0)
 	state = player_states.idle;
 }
 // Running - floor below & hsp is NOT 0
+if ( place_meeting(x, y + 1, oWall) && abs(hsp) > 0) 
+{
+	state = player_states.running;
+}

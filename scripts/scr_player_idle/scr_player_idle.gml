@@ -1,5 +1,3 @@
-scr_player_get_inputs();
-
 // What do we do in idle state?
 // switch to Idle animation cycle
 // first make sure we begin with the first frame
