@@ -1,10 +1,17 @@
 /// @description Add platformer mechanics
 
-// Get keyboard inputs
-// keyboard_check(key) will return 1 if pressed or 0 if not pressed
-key_right = keyboard_check(vk_right); // ord('D') for the letter D
-key_left = keyboard_check(vk_left);   // ord('A') for A
-key_jump = keyboard_check(vk_space); 
+switch (state) {
+	case player_states.idle: 
+		scr_player_idle(); 
+		break;
+	case player_states.running:
+		scr_player_running();
+		break;
+	case player_states.jumping:
+		scr_player_jumping();
+		break;
+}
+scr_player_get_inputs();
 
 // Work out where to move horizontally
 // hsp will be equal 0, -4, or 4 after the next expression

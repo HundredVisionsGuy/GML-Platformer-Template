@@ -7,6 +7,9 @@ hsp_walk = 4;	// walk speed
 vsp_jump = -5;	// jump speed
 
 // Declare our player states
-enum states {
-		
+enum player_states {
+	idle,
+	running,
+	jumping
 }
+state = player_states.idle;

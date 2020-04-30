@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "1bf31c7a-496d-42b2-a0b6-5c59fe644f5f",
+            "Value": {
+                "id": "effbe1bf-e03e-4abe-9edf-da384db2c4d1",
+                "resourcePath": "scripts\\scr_player_jumping\\scr_player_jumping.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2086ba7e-9aa8-4a4a-b3c2-733296d1deb3",
             "Value": {
                 "id": "8f1aa7cf-9034-439a-bc80-91bfa077e28c",
@@ -79,6 +87,14 @@
             }
         },
         {
+            "Key": "747262f6-0b74-451a-9008-293f5f555824",
+            "Value": {
+                "id": "cefb4833-5d24-417e-bd9d-00c739f9b71d",
+                "resourcePath": "scripts\\scr_player_get_inputs\\scr_player_get_inputs.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "77f9ca1a-09bd-4642-b02d-875576c0b9b5",
             "Value": {
                 "id": "ca0f352e-0e9c-4ce5-a030-2156027ce443",
@@ -116,6 +132,14 @@
                 "id": "a935c04b-a4a2-46d0-b7b6-d0b157e0c5f8",
                 "resourcePath": "views\\9dcb22a5-9d88-4bd3-a7c0-a43a32fba0f6.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a001893e-8021-4055-8ee8-34dec889491b",
+            "Value": {
+                "id": "61c62050-55a9-42c3-b0cd-7c2c5aee9295",
+                "resourcePath": "scripts\\scr_player_running\\scr_player_running.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -188,6 +212,14 @@
                 "id": "488e4b52-4769-4d80-a611-3eb70d4cbc8e",
                 "resourcePath": "views\\d292a2ee-4949-42da-b58e-c44a91fadc19.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d2c29e9f-5119-4f02-8ba3-f0cdd4176d6f",
+            "Value": {
+                "id": "031de4e5-4403-45ae-87c1-d5f82eb861ca",
+                "resourcePath": "scripts\\scr_player_idle\\scr_player_idle.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -272,7 +304,10 @@
         }
     ],
     "script_order": [
-        
+        "d2c29e9f-5119-4f02-8ba3-f0cdd4176d6f",
+        "a001893e-8021-4055-8ee8-34dec889491b",
+        "1bf31c7a-496d-42b2-a0b6-5c59fe644f5f",
+        "747262f6-0b74-451a-9008-293f5f555824"
     ],
     "tutorial": ""
 }
