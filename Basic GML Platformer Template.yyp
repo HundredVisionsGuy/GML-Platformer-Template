@@ -74,7 +74,7 @@
             "Key": "5437f4fc-af81-4383-9bff-e6e82246aa51",
             "Value": {
                 "id": "74f9d0fd-d219-4de1-bc0b-40dfe7e9c198",
-                "resourcePath": "sprites\\sPlayerJumpDown\\sPlayerJumpDown.yy",
+                "resourcePath": "sprites\\sPlayerFall\\sPlayerFall.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "d76762a1-ac81-4ba1-8671-beddc19f8d68",
+            "Value": {
+                "id": "94d395f8-692f-439e-9c3f-a9cf39445f8f",
+                "resourcePath": "scripts\\scr_player_falling\\scr_player_falling.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "d7d20db6-fc04-40e4-b98e-871ccf180f88",
             "Value": {
                 "id": "22b8612a-ce97-4b2c-b5a7-af5715179cd4",
@@ -307,6 +315,7 @@
         "d2c29e9f-5119-4f02-8ba3-f0cdd4176d6f",
         "a001893e-8021-4055-8ee8-34dec889491b",
         "1bf31c7a-496d-42b2-a0b6-5c59fe644f5f",
+        "d76762a1-ac81-4ba1-8671-beddc19f8d68",
         "747262f6-0b74-451a-9008-293f5f555824"
     ],
     "tutorial": ""

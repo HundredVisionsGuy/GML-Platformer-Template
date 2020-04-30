@@ -2,7 +2,7 @@
     "id": "5437f4fc-af81-4383-9bff-e6e82246aa51",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sPlayerJumpDown",
+    "name": "sPlayerFall",
     "For3D": false,
     "HTile": false,
     "VTile": false,
@@ -143,7 +143,7 @@
         }
     ],
     "origin": 0,
-    "originLocked": false,
+    "originLocked": true,
     "playbackSpeed": 15,
     "playbackSpeedType": 0,
     "premultiplyAlpha": false,

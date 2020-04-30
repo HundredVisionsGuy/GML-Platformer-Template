@@ -10,6 +10,9 @@ switch (state) {
 	case player_states.jumping:
 		scr_player_jumping();
 		break;
+	case player_states.falling:
+		scr_player_falling();
+		break;
 }
 scr_player_get_inputs();
 

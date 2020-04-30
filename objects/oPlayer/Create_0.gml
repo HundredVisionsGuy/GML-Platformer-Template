@@ -10,6 +10,7 @@ vsp_jump = -5;	// jump speed
 enum player_states {
 	idle,
 	running,
-	jumping
+	jumping, 
+	falling
 }
 state = player_states.idle;
