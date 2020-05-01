@@ -16,7 +16,3 @@ if (abs(hsp) > 0) {
 if (vsp < 0) {
 	state = player_states.jumping;
 }
-// To falling (vertical speed is greater than 0)
-if (vsp > 0) {
-	state = player_states.falling;
-}
