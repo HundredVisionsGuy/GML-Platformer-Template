@@ -1,20 +1,7 @@
 /// @description Add platformer mechanics
 
-switch (state) {
-	case player_states.idle: 
-		scr_player_idle(); 
-		break;
-	case player_states.running:
-		scr_player_running();
-		break;
-	case player_states.jumping:
-		scr_player_jumping();
-		break;
-	case player_states.falling:
-		scr_player_falling();
-		break;
-}
 scr_player_get_inputs();
+scr_check_state();
 
 // Work out where to move horizontally
 // hsp will be equal 0, -4, or 4 after the next expression

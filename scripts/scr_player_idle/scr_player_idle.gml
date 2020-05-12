@@ -6,13 +6,5 @@ if (sprite_index != sPlayerIdle) {
 }
 sprite_index = sPlayerIdle;
 
-// What states can we change into?
-// To run (horizontal speed is NOT 0)
-if (abs(hsp) > 0) {
-	state = player_states.running;	
-}
-
-// To jump (platform is below us and we're pressing up)
-if (vsp < 0) {
-	state = player_states.jumping;
-}
+// Manage my transitions to other states
+scr_manage_states();

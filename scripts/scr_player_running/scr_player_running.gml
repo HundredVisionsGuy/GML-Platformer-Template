@@ -1,10 +1,10 @@
 // What do we do in running state?
 // Switch sprites to running
 // first make sure we begin with the first frame
-if (sprite_index != sPlayerRun) {
+if (sprite_index != sPlayerRunning) {
 	image_index = 0;
 }
-sprite_index = sPlayerRun;
+sprite_index = sPlayerRunning;
 
 // Flip the sprite based on direction
 if (hsp > 0) {
@@ -14,12 +14,5 @@ if (hsp < 0) {
 	image_xscale = -1;
 }
 
-// What states can we change into?
-// Idle
-if (hsp == 0) state = player_states.idle;
-
-// Jumping
-if (abs(hsp) > 0 && vsp <= 0) state = player_states.jumping;
-
-// Falling
-if (vsp > 0) state = player_states.falling;
+// Manage my transitions to other states
+scr_manage_states();
