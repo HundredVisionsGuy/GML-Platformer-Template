@@ -47,14 +47,6 @@
             }
         },
         {
-            "Key": "2086ba7e-9aa8-4a4a-b3c2-733296d1deb3",
-            "Value": {
-                "id": "8f1aa7cf-9034-439a-bc80-91bfa077e28c",
-                "resourcePath": "sprites\\sPlayerJumpUp\\sPlayerJumpUp.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "29c70d5a-e498-413a-813e-53809cc5cd6c",
             "Value": {
                 "id": "6d88b4b1-6a37-4bcc-ab2c-0015a5994f96",
@@ -74,7 +66,7 @@
             "Key": "5437f4fc-af81-4383-9bff-e6e82246aa51",
             "Value": {
                 "id": "74f9d0fd-d219-4de1-bc0b-40dfe7e9c198",
-                "resourcePath": "sprites\\sPlayerFall\\sPlayerFall.yy",
+                "resourcePath": "sprites\\sPlayerFalling\\sPlayerFalling.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -114,7 +106,7 @@
             "Key": "8cfda9da-a492-4cda-92dc-70b167c345f2",
             "Value": {
                 "id": "bcb17a77-293d-4726-95b3-6a39f7e60702",
-                "resourcePath": "sprites\\sPlayerJump\\sPlayerJump.yy",
+                "resourcePath": "sprites\\sPlayerJumping\\sPlayerJumping.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -234,7 +226,7 @@
             "Key": "d7d20db6-fc04-40e4-b98e-871ccf180f88",
             "Value": {
                 "id": "22b8612a-ce97-4b2c-b5a7-af5715179cd4",
-                "resourcePath": "sprites\\sPlayerRun\\sPlayerRun.yy",
+                "resourcePath": "sprites\\sPlayerRunning\\sPlayerRunning.yy",
                 "resourceType": "GMSprite"
             }
         },
